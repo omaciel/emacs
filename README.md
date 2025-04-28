@@ -54,7 +54,7 @@ The configuration is designed to be easily customizable. You can modify the foll
 
 ## License
 
-[Add your license here]
+[MIT License](https://github.com/omaciel/emacs/blob/main/LICENSE)
 
 ## Author
 
