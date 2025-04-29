@@ -11,16 +11,16 @@ This Emacs configuration is designed to provide a streamlined, efficient develop
 - **Clean Interface**: Minimal UI with no menu bar, tool bar, or scroll bars
 - **Modern Font**: Uses Menlo font (14pt) by default
 - **Quality of Life Improvements**:
-  - UTF-8 encoding
-  - Auto-revert mode
-  - Electric pair mode
-  - Show paren mode
-  - Column number display
+- UTF-8 encoding
+- Auto-revert mode
+- Electric pair mode
+- Show paren mode
+- Column number display
 - **Modular Configuration**: Separate files for:
-  - Package management (`packages.el`)
-  - Programming configurations (`programming.el`)
-  - Appearance settings (`appearance.el`)
-  - Key bindings (`key-bindings.el`)
+- Package management (`packages.el`)
+- Programming configurations (`programming.el`)
+- Appearance settings (`appearance.el`)
+- Key bindings (`key-bindings.el`)
 
 ## Requirements
 
