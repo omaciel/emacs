@@ -84,6 +84,8 @@
 (load (expand-file-name "appearance.el" my/config-dir))
 ;; Keybindings
 (load (expand-file-name "key-bindings.el" my/config-dir))
+;; Keybinding documentation generator
+(load (expand-file-name "doc-generator.el" my/config-dir))
 
 ;; Always set customizations into a separate file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))

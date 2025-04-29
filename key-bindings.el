@@ -80,4 +80,7 @@
 (global-set-key (kbd "C-c +") 'text-scale-increase)
 (global-set-key (kbd "C-c -") 'text-scale-decrease)
 
+;; Update keybindings documentation
+(global-set-key (kbd "C-c d") 'my/generate-keybindings-doc)
+
 ;;; key-bindings.el ends here
