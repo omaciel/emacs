@@ -102,6 +102,12 @@
 
 (use-package magit)
 
+;; Markdown files
+(use-package markdown-mode
+  :ensure t
+  :mode ("\\.md\\'" . markdown-mode)
+  :init (setq markdown-command "pandoc"))
+
 (use-package multiple-cursors
   :ensure t)
 

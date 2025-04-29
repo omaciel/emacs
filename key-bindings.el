@@ -34,6 +34,9 @@
 (global-set-key (kbd "C-c g") 'beginning-of-buffer)
 (global-set-key (kbd "C-c G") 'end-of-buffer)
 
+;; Preview markdown content
+(global-set-key (kbd "C-c m") 'markdown-live-preview-mode)
+
 ;; Make resizing windows easy using Control + Arrow keys
 (global-set-key (kbd "C-S-<left>") 'shrink-window-horizontally)
 (global-set-key (kbd "C-S-<right>") 'enlarge-window-horizontally)
