@@ -60,7 +60,17 @@
         (other-window 1)
         (vterm)))))
 
-;; Bind it to C-c t
+(defun my/new-vterm ()
+  "Create a new vterm buffer with a unique name."
+  (interactive)
+  (let ((vterm-buffer-name
+         (generate-new-buffer-name "*vterm*")))
+    (vterm)))
+
+;; New vterm
+(global-set-key (kbd "C-c n") 'my/new-vterm)
+
+;; Re-usable vterm
 (global-set-key (kbd "C-c t") #'my/vterm-toggle)
 
 ;; Zoom mode
