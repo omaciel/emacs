@@ -1,3 +1,19 @@
+;;; doc-generator.el --- Automatically document all key bindings for my Emacs -*- lexical-binding: t; -*-
+
+;; Author: Og Maciel <og@maciel.com>
+;; Maintainer: Og Maciel
+;; Created: 2025-04-29
+;; Keywords: convenience, keybindings
+;; URL: https://omaciel.github.io
+
+;;; Commentary:
+
+;; This file contains all the code required to automatically document all of
+;; the keybindings configured for my Emacs setup.
+
+;;; Code:
+
+
 (defun my/generate-keybindings-doc ()
   "Generate Markdown documentation for custom Emacs keybindings."
   (interactive)
@@ -37,4 +53,4 @@
 ;; Attach the hook to after-save
 (add-hook 'after-save-hook 'my/auto-generate-keybindings-doc)
 
-;; doc-generator.el ends here
+;;; doc-generator.el ends here
